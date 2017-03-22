@@ -20,7 +20,7 @@
 </script>
 
 <style>
-    body{
+    body {
         padding: 30px;
     }
 </style>

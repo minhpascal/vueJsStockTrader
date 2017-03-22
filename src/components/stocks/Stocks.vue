@@ -1,6 +1,6 @@
 <template>
     <div>
-        <app-stock v-for="stock in stocks"></app-stock>
+        <app-stock v-for="stock in stocks" :stock="stock"></app-stock>
     </div>
 </template>
 
@@ -8,7 +8,7 @@
     import Stock from './Stock.vue'
 
     export default {
-        data(){
+        data() {
             return {
                 stocks: [
                     {id: 1, name: 'BMW', price: 110},
